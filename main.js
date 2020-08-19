@@ -1,11 +1,9 @@
-// Instantiate ui
-const ui = new UI;
-
 // Instantiate github
 const github = new Github;
 // github.getProfile('mostafa')
 
-
+// Instantiate ui
+const ui = new UI;
 
 
 document.getElementById('searchProfile').addEventListener('keyup', searchProfile);
